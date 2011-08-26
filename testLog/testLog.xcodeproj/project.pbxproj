@@ -16,8 +16,13 @@
 		BB381FA1140776ED00083854 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB381F9F140776ED00083854 /* MainWindow.xib */; };
 		BB381FA4140776ED00083854 /* testLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB381FA3140776ED00083854 /* testLogViewController.m */; };
 		BB381FA7140776ED00083854 /* testLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB381FA5140776ED00083854 /* testLogViewController.xib */; };
+<<<<<<< HEAD
 		BB381FCD14077C2300083854 /* file2.m in Sources */ = {isa = PBXBuildFile; fileRef = BB381FCB14077C2300083854 /* file2.m */; };
 		BB381FCE14077C2300083854 /* file2.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB381FCC14077C2300083854 /* file2.xib */; };
+=======
+		BB381FB014077A2500083854 /* testFile1.m in Sources */ = {isa = PBXBuildFile; fileRef = BB381FAE14077A2500083854 /* testFile1.m */; };
+		BB381FB114077A2500083854 /* testFile1.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB381FAF14077A2500083854 /* testFile1.xib */; };
+>>>>>>> testBranch1
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -35,9 +40,15 @@
 		BB381FA2140776ED00083854 /* testLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testLogViewController.h; sourceTree = "<group>"; };
 		BB381FA3140776ED00083854 /* testLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testLogViewController.m; sourceTree = "<group>"; };
 		BB381FA6140776ED00083854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/testLogViewController.xib; sourceTree = "<group>"; };
+<<<<<<< HEAD
 		BB381FCA14077C2300083854 /* file2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file2.h; sourceTree = "<group>"; };
 		BB381FCB14077C2300083854 /* file2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = file2.m; sourceTree = "<group>"; };
 		BB381FCC14077C2300083854 /* file2.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = file2.xib; sourceTree = "<group>"; };
+=======
+		BB381FAD14077A2500083854 /* testFile1.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testFile1.h; sourceTree = "<group>"; };
+		BB381FAE14077A2500083854 /* testFile1.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testFile1.m; sourceTree = "<group>"; };
+		BB381FAF14077A2500083854 /* testFile1.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = testFile1.xib; sourceTree = "<group>"; };
+>>>>>>> testBranch1
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +68,15 @@
 		BB381F7E140776ED00083854 = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
 				BB381FCA14077C2300083854 /* file2.h */,
 				BB381FCB14077C2300083854 /* file2.m */,
 				BB381FCC14077C2300083854 /* file2.xib */,
+=======
+				BB381FAD14077A2500083854 /* testFile1.h */,
+				BB381FAE14077A2500083854 /* testFile1.m */,
+				BB381FAF14077A2500083854 /* testFile1.xib */,
+>>>>>>> testBranch1
 				BB381F93140776ED00083854 /* testLog */,
 				BB381F8C140776ED00083854 /* Frameworks */,
 				BB381F8A140776ED00083854 /* Products */,
@@ -162,7 +179,11 @@
 				BB381F98140776ED00083854 /* InfoPlist.strings in Resources */,
 				BB381FA1140776ED00083854 /* MainWindow.xib in Resources */,
 				BB381FA7140776ED00083854 /* testLogViewController.xib in Resources */,
+<<<<<<< HEAD
 				BB381FCE14077C2300083854 /* file2.xib in Resources */,
+=======
+				BB381FB114077A2500083854 /* testFile1.xib in Resources */,
+>>>>>>> testBranch1
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,7 +197,11 @@
 				BB381F9B140776ED00083854 /* main.m in Sources */,
 				BB381F9E140776ED00083854 /* testLogAppDelegate.m in Sources */,
 				BB381FA4140776ED00083854 /* testLogViewController.m in Sources */,
+<<<<<<< HEAD
 				BB381FCD14077C2300083854 /* file2.m in Sources */,
+=======
+				BB381FB014077A2500083854 /* testFile1.m in Sources */,
+>>>>>>> testBranch1
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
