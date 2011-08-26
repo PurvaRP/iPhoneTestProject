@@ -16,6 +16,8 @@
 		BB381FA1140776ED00083854 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB381F9F140776ED00083854 /* MainWindow.xib */; };
 		BB381FA4140776ED00083854 /* testLogViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = BB381FA3140776ED00083854 /* testLogViewController.m */; };
 		BB381FA7140776ED00083854 /* testLogViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB381FA5140776ED00083854 /* testLogViewController.xib */; };
+		BB38201B14079A9900083854 /* file.m in Sources */ = {isa = PBXBuildFile; fileRef = BB38201914079A9900083854 /* file.m */; };
+		BB38201C14079A9900083854 /* file.xib in Resources */ = {isa = PBXBuildFile; fileRef = BB38201A14079A9900083854 /* file.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,9 @@
 		BB381FA2140776ED00083854 /* testLogViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = testLogViewController.h; sourceTree = "<group>"; };
 		BB381FA3140776ED00083854 /* testLogViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = testLogViewController.m; sourceTree = "<group>"; };
 		BB381FA6140776ED00083854 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/testLogViewController.xib; sourceTree = "<group>"; };
+		BB38201814079A9900083854 /* file.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = file.h; sourceTree = "<group>"; };
+		BB38201914079A9900083854 /* file.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = file.m; sourceTree = "<group>"; };
+		BB38201A14079A9900083854 /* file.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = file.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +57,9 @@
 		BB381F7E140776ED00083854 = {
 			isa = PBXGroup;
 			children = (
+				BB38201814079A9900083854 /* file.h */,
+				BB38201914079A9900083854 /* file.m */,
+				BB38201A14079A9900083854 /* file.xib */,
 				BB381F93140776ED00083854 /* testLog */,
 				BB381F8C140776ED00083854 /* Frameworks */,
 				BB381F8A140776ED00083854 /* Products */,
@@ -154,6 +162,7 @@
 				BB381F98140776ED00083854 /* InfoPlist.strings in Resources */,
 				BB381FA1140776ED00083854 /* MainWindow.xib in Resources */,
 				BB381FA7140776ED00083854 /* testLogViewController.xib in Resources */,
+				BB38201C14079A9900083854 /* file.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -167,6 +176,7 @@
 				BB381F9B140776ED00083854 /* main.m in Sources */,
 				BB381F9E140776ED00083854 /* testLogAppDelegate.m in Sources */,
 				BB381FA4140776ED00083854 /* testLogViewController.m in Sources */,
+				BB38201B14079A9900083854 /* file.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -279,6 +289,7 @@
 				BB381FAC140776ED00083854 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
